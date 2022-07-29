@@ -85,12 +85,11 @@
     box-shadow: 2px 5px 10px grey;
     text-align: center; 
     padding: 20px;
-    margin-top: 40px;
     transition: .4s;
+    margin-top: 40px;
 }
 .card1:hover{
-    height: 250px;
-    width: 300px;
+    height:200px;
     border: 1px solid rgb(201, 115, 115);
     border-radius: 5px;
     box-shadow: 2px 5px 10px rgb(216, 152, 152);
@@ -101,4 +100,73 @@
 }
 .card-icon{
     width: 50px;
+}
+/* about us  */
+.about-section{
+    background-color: rgb(17, 17, 17);
+    margin-top: 80px;
+}
+.about-title1{
+    margin-top: 70px;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+.about-title2{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 25px;
+    
+}
+.text{
+    color: white;
+    font-size: 25px;
+    font-weight: 500; 
+    margin-left: 25px;   
+}
+.about-container{
+    display: flex; 
+}
+.about-left{
+    width: 700px;
+    margin-left: 25px;
+    margin-right: 20px;
+    border-top: 1px solid red;   
+}
+.about-right{
+    width: 700px;
+    border-top: 1px solid grey;
+}
+.about-img{
+    display: flex; 
+    margin-top: 70px;     
+}
+.about-img img{  
+    padding-left: 80px;
+    width: 280px;
+    height: 420px;
+    transform: skewY(-20deg);
+}
+.about-list li{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 50px;
+    color: white;
+    list-style:square;
+}
+
+.about-btn{
+    margin: 10px;
+    padding: 15px 30px;
+    background-color: rgb(172, 86, 100);
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    margin-left: 25px;
+}
+.about-btn:hover{
+    background-color: blue;
 }

@@ -56,10 +56,6 @@
     font-weight: 500;
     margin: 10px;
 }
-.banner-img{
-    width: 50%;
-    height: 80%;
-}
 .banner-btn{
     margin: 10px;
     padding: 15px 30px;
@@ -68,4 +64,41 @@
     cursor: pointer;
     color: white;
     font-size: 18px;
+}
+.title2{
+    margin-top:80px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.card-container{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 75px;
+}
+.card1{
+    
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 2px 5px 10px grey;
+    text-align: center; 
+    padding: 20px;
+    margin-top: 40px;
+    transition: .4s;
+}
+.card1:hover{
+    height: 250px;
+    width: 300px;
+    border: 1px solid rgb(201, 115, 115);
+    border-radius: 5px;
+    box-shadow: 2px 5px 10px rgb(216, 152, 152);
+    text-align: center; 
+    padding: 20px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+.card-icon{
+    width: 50px;
 }

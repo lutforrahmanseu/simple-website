@@ -33,6 +33,7 @@
     background: rgb(115, 117, 115);
     
 }
+/* banner section  */
 .banner-container{
     display: flex;
     height: 100%;
@@ -71,6 +72,7 @@
     font-weight: bold;
     text-align: center;
 }
+/* card section  */
 .card-container{
     display: flex;
     justify-content:space-evenly;
@@ -162,11 +164,40 @@
     padding: 15px 30px;
     background-color: rgb(172, 86, 100);
     border-radius: 10px;
-    cursor: pointer;
+    margin-right: 10px;
     color: white;
+    cursor: pointer;
     font-size: 18px;
     margin-left: 25px;
 }
 .about-btn:hover{
+    background-color: blue;
+}
+/* work out section  */
+.work-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    width: 750px;
+    height: 200px;
+    background-image:url("../images/shape/Group_33094_1.png");
+    background-size:cover;
+    background-position: center;  
+    background-repeat: no-repeat; 
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top:80px;
+    
+    
+}
+.lets-btn{
+    padding: 10px 25px;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 25px;
+}
+.lets-btn:hover{
     background-color: blue;
 }
